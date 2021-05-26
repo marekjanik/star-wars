@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Star Wars Characters</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Star Wars Characters</h1>
+      <div class="search">
+        <input
+          type="text"
+          class="search-term"
+          placeholder="What are you looking for, my young Padawan?"
+        />
+        <button type="submit" class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="character-container">
+      <ul class="character-list"></ul>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <div class="character-info"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

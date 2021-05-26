@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #1c1e22;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.search {
+  width: 330px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.search-term {
+  width: 100%;
+  border: 3px solid #fde44d;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-term:focus {
+  color: #1c1e22;
+}
+
+.search-button {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #fde44d;
+  background-color: #fde44d;
+  text-align: center;
+  color: #1c1e22;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.character-container {
+  width: 80%;
+}
+
+.character-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.character {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  list-style: none;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.character:hover {
+  background-color: #fde44d;
+  color: #1c1e22;
+  border-color: #fde44d;
+}
+
+.modal {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(28, 30, 34, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal--active {
+  display: block;
+}
+
+.modal-content {
+  height: 700px;
+  width: 60%;
+  background-color: #aaa;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.character-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.character-key {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.character-value {
+  margin-bottom: 25px;
+}
