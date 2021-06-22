@@ -4,7 +4,7 @@
 
 ## General Info
 
-The Star Wars character browser created with CSS and JavaScript.
+The character browser using data from the Star Wars API.
 
 Click [here](https://marekjanik.github.io/star-wars/) to watch it live.
 
