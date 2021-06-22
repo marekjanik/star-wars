@@ -1,6 +1,6 @@
 # Star Wars Characters
 
-![screenshot](images/screenshot.png)
+![screenshot](images/screenshot.jpg)
 
 ## General Info
 
@@ -24,7 +24,7 @@ All elements are positioned in the middle of the page using Flexbox.
 
 The `.modal`'s display property is primarily set to none.
 
-Class `.modal--active` is added via JavaScript. 
+Class `.modal--active` is added via JavaScript.
 
 ## JavaScript
 
@@ -34,7 +34,7 @@ Next, the data from the external API is fetched and saved as a variable `charact
 
 When an individual character element is clicked, a modal is displayed with the function `showModal()`.
 
-Function `getCharacterInfo()`, which is invoked during displaying a modal, gets an individual character's info from the API and adds that to the modal's content. 
+Function `getCharacterInfo()`, which is invoked during displaying a modal, gets an individual character's info from the API and adds that to the modal's content.
 
 Additionally, to avoid a bug after hiding the modal, function `removeAllChildNodes()` is called removing a previous character's info.
 
@@ -45,7 +45,6 @@ Finally, the search engine's `input` element is being listened with `addEventLis
 | Syntax                                                         | Description                                                                                                            |
 | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | fetch(url).then(response => response.json()).then(data => ...) | takes the URL path to the resource you want to fetch and returns a promise containing the response (a Response object) |
-
 
 ## Sources
 
