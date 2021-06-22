@@ -1,6 +1,6 @@
 # Star Wars Characters
 
-![screenshot](images/screenshot.jpg)
+![screenshot](images/screenshot.png)
 
 ## General Info
 
